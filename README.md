@@ -11,7 +11,7 @@ Changes (breaking or otherwise) in v1.0.0 can be found [here](https://github.com
 
 # Install
 
-    npm install busboy
+    npm install @webfountain/busboy
 
 
 # Examples
@@ -21,7 +21,7 @@ Changes (breaking or otherwise) in v1.0.0 can be found [here](https://github.com
 ```js
 const http = require('http');
 
-const busboy = require('busboy');
+const busboy = require('@webfountain/busboy');
 
 http.createServer((req, res) => {
   if (req.method === 'POST') {
@@ -90,7 +90,7 @@ const http = require('http');
 const os = require('os');
 const path = require('path');
 
-const busboy = require('busboy');
+const busboy = require('@webfountain/busboy');
 
 const random = (() => {
   const buf = Buffer.alloc(16);
